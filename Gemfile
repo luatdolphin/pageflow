@@ -14,9 +14,7 @@ gem 'ransack'
 gem 'inherited_resources', '1.4.1'
 gem 'formtastic', '2.3.0'
 
-# Ensure that teaspoon is required via Bundler.require inside the
-# dummy app. Otherwise teaspoon fails to initialize correctly.
-gem 'teaspoon', '~> 0.9.0'
+
 
 gem 'spring-commands-rspec', group: :development
 gem 'spring-commands-teaspoon', group: :development
