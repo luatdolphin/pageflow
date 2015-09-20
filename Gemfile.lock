@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-  pageflow (0.1.0)
+  pageflow (0.8.2)
        activeadmin
        ar_after_transaction
        aws-sdk
