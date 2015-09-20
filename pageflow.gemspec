@@ -125,7 +125,8 @@ Gem::Specification.new do |s|
   # Colorized console output
   s.add_development_dependency 'colorize', '~> 0.7.5'
 
-
+  # Javascript unit testing
+  s.add_development_dependency 'teaspoon', '~> 0.9.0'
 
   # Stub HTTP requests in tests
   s.add_development_dependency 'webmock', '~> 1.20'
