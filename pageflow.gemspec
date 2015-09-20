@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '>= 4.0.2', '< 4.2'
 
-  s.add_dependency 'activeadmin', '~> 0.6.0'
+  s.add_dependency 'activeadmin', '~> 1.0.0.pre1'
 
   # Make devise mailers use resque. (Needs to be below active admin entry!)
   s.add_dependency 'devise-async', '~> 0.8.0'
